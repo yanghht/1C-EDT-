@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a34b9977-193a-4e60-b2c3-43594da10a57">
+  <producedTypes>
+    <selectionType typeId="3ca1c5b1-fbfa-4b22-ab72-7aa839a6a88c" valueTypeId="45be9be1-ace5-45ee-befd-131e3e2889dd"/>
+    <listType typeId="2420786f-e340-4a7c-a2c7-cccc149819cf" valueTypeId="ed6ec5a5-94c5-4b6d-a40d-b4153234ed7e"/>
+    <managerType typeId="db0eeab0-0003-4e26-a5b2-d99e290225d3" valueTypeId="169e9347-76db-480c-ac34-0aa6399dd171"/>
+    <recordSetType typeId="b4e6509b-0af6-4a03-92af-aee4d1c08d2d" valueTypeId="ab35bade-96f7-476f-b2cb-11021612ec0e"/>
+    <recordKeyType typeId="c0a1a2cb-5d4f-436b-a003-cc5e57a0a9fd" valueTypeId="f0ded7e6-6e8e-4d83-83ef-fef46c6672b2"/>
+    <recordType typeId="d8e33911-4dbf-4211-989e-bd66b0de1171" valueTypeId="0e00f3af-d9da-4efd-b58f-41ba32d11ed6"/>
+  </producedTypes>
+  <name>ОстаткиСамокатов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Остатки самокатов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="77719422-6081-4803-bd41-36177f35ab5b">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="2ed78c02-f692-40d9-a11b-4ae17406f508">
+    <name>Студент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Студент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Студенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5476d20f-794c-4932-813d-39259006c0d7">
+  <name>Конфигурация</name>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="c3e2f148-8abb-483b-a415-842725ee71d1"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="7e70953e-7862-43e2-ab7f-43c4a5268898"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="b146074f-91fd-44e2-8751-428cfd1d8ce3"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="234b7118-6569-4bdf-a5b0-609664398350"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="3f616d3e-b643-4225-b9f9-564dd4e548c7"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="f79b77aa-3bb2-4730-9d3e-78c8bd3d89d4"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="bd6af8c0-fec4-4000-88a3-e36bade0f2fc"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.23</compatibilityMode>
+  <languages uuid="e2a9ff7a-2e39-43d2-bfc0-1263d3433dbb">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <catalogs>Catalog.Студенты</catalogs>
+  <documents>Document.Закупка</documents>
+  <documents>Document.СдачаВАренду</documents>
+  <documents>Document.Возврат</documents>
+  <reports>Report.ОтчётПоАрендаторам</reports>
+  <accumulationRegisters>AccumulationRegister.ОстаткиСамокатов</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.АрендаСамокатов</accumulationRegisters>
+</mdclass:Configuration>

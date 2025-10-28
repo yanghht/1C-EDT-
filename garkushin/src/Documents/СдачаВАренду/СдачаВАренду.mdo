@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e28f8f05-0587-44b8-b6a7-0b9f8aa4cf15">
+  <producedTypes>
+    <objectType typeId="04d26581-2c7e-4a94-bcc5-10a6f29214de" valueTypeId="a052748e-74ec-413e-a5a3-84964283045f"/>
+    <refType typeId="5d51c913-303c-42c7-94c8-b8a267c14967" valueTypeId="c8265b28-fc84-4198-93d7-e22ef163bb77"/>
+    <selectionType typeId="3af9a364-3d7c-49de-b8d7-f69f6547632c" valueTypeId="1b702c76-0017-4777-8601-578918928106"/>
+    <listType typeId="d044538d-a8fc-4467-b528-b85ead62bf24" valueTypeId="90c13162-9268-404d-ad3e-beef8d0fdd7c"/>
+    <managerType typeId="af6f012c-1ba6-4efe-965f-c6694a0bc4ea" valueTypeId="86850709-129e-41b0-94af-a4bf93e8d605"/>
+  </producedTypes>
+  <name>СдачаВАренду</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сдача в аренду</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.СдачаВАренду.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <registerRecords>AccumulationRegister.ОстаткиСамокатов</registerRecords>
+  <registerRecords>AccumulationRegister.АрендаСамокатов</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="752ec052-d0b2-4a13-ba14-185343d14909">
+    <name>Студент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Студент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Студенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>

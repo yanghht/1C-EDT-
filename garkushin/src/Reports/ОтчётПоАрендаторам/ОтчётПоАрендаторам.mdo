@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9d8cc4c2-9635-4214-ba4d-f77caf438363">
+  <producedTypes>
+    <objectType typeId="c6177394-9651-428b-8736-8daeab07efdd" valueTypeId="dc6f088f-fd8f-41c4-8e9e-ca37219b2c6e"/>
+    <managerType typeId="ab802160-222b-411c-93de-5bee042ec423" valueTypeId="af63f5ef-ce10-4a8f-b4bf-762001fd9cc3"/>
+  </producedTypes>
+  <name>ОтчётПоАрендаторам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчёт по арендаторам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ОтчётПоАрендаторам.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="a6b77411-fad7-4c8a-85fd-f3c9c9b5ee67">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>
